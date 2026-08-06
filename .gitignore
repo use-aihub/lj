@@ -1,0 +1,48 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+
+# Python environments and packaging
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+
+# Test and coverage output
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Local configuration, logs, and caches
+.env
+.env.*
+!.env.example
+*.log
+
+# Office temporary files and generated review copies
+~$*.docx
+~$*.xlsx
+.~lock.*#
+*-审核批注版*.docx
+*-审核批注版*.xlsx

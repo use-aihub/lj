@@ -1,0 +1,6 @@
+interface:
+  display_name: "专业报告原生批注审核"
+  short_description: "快速并行深审专业报告并交付保全原件的 Word/Excel 原生批注版"
+  default_prompt: "使用 $reviewing-reports 并行审核我指定的独立项目，默认快速验收、保全原件并生成 Word/Excel 原生批注版，不执行渲染视觉检查。"
+policy:
+  allow_implicit_invocation: true
